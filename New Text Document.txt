@@ -1,0 +1,3 @@
+git remote add origin https://github.com/Shuvo895/doctor-portal-clientside.git
+git branch -M main
+git push -u origin main
