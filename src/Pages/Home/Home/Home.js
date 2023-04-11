@@ -5,6 +5,7 @@ import InfoCards from '../InfoCard/InfoCards';
 import Reviews from '../Review/Reviews';
 import Services from '../Services/Services';
 import Term from '../Term/Term';
+import Contact from '../Contact/Contact';
 
 
 const Home = () => {
@@ -15,6 +16,7 @@ const Home = () => {
             <Services></Services>
             <Term></Term>
             <Appointment></Appointment>
+            <Contact></Contact>
             <Reviews></Reviews>
             
             

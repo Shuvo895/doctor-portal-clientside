@@ -6,6 +6,7 @@ import Appointments from "../../Pages/Appointments/Appointments/Appointments";
 import SignUp from "../../Pages/SignUp/SignUp";
 import Dashboard from "../../Pages/Dashboard/Dashborad/Dashboard";
 import PrivateRoute from "../PrivateRoute/PrivateRoute";
+import Contact from "../../Pages/Home/Contact/Contact";
 
 export const router= createBrowserRouter([
     {
@@ -27,6 +28,10 @@ export const router= createBrowserRouter([
             {
                 path:'/appointment',
                 element:<Appointments></Appointments>
+            },
+            {
+                path:'/Contact',
+                element:<Contact></Contact>
             }
         ]
     },
